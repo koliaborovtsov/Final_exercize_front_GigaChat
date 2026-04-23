@@ -1,0 +1,62 @@
+.inputField {
+  padding: 16px 20px;
+  background: #181825;
+  border-top: 1px solid #313244;
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.textarea {
+  flex: 1;
+  padding: 12px;
+  background: #313244;
+  color: #cdd6f4;
+  border: 1px solid #45475a;
+  border-radius: 8px;
+  resize: none;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.textarea:focus {
+  outline: none;
+  border-color: #cba6f7;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.sendButton, .stopButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+.sendButton {
+  background: #a6e3a1;
+  color: #1e1e2e;
+}
+
+.sendButton:hover {
+  background: #94e2d5;
+}
+
+.sendButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.stopButton {
+  background: #f38ba8;
+  color: white;
+}
+
+.stopButton:hover {
+  background: #eba0ac;
+}

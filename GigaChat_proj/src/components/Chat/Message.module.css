@@ -1,0 +1,86 @@
+.message {
+  display: flex;
+  gap: 12px;
+  max-width: 80%;
+}
+
+.userMessage {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+
+.assistantMessage {
+  align-self: flex-start;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #313244;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.role {
+  font-weight: 600;
+  font-size: 0.9em;
+  color: #a6e3a1;
+}
+
+.time {
+  font-size: 0.8em;
+  color: #6c7086;
+}
+
+.text {
+  background: #313244;
+  padding: 12px 16px;
+  border-radius: 12px;
+  white-space: pre-wrap;
+}
+
+.userMessage .text {
+  background: #cba6f7;
+  color: #1e1e2e;
+}
+
+.assistantMessage .text {
+  background: #313244;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #45475a;
+}
+
+.copyButton {
+  padding: 4px 8px;
+  background: #45475a;
+  color: #cdd6f4;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85em;
+}
+
+.copyButton:hover {
+  background: #585b70;
+}

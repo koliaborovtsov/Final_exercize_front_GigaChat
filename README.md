@@ -40,8 +40,6 @@ VITE_GIGACHAT_CLIENT_ID=ваш_client_id
 VITE_GIGACHAT_CLIENT_SECRET=ваш_client_secret
 ```
 
-По умолчанию используется scope `GIGACHAT_API_PERS`. Для корпоративного доступа поменяйте scope в `src/api/authService.ts`.
-
 ## Запуск
 
 
@@ -71,7 +69,7 @@ GigaChat_proj/
 ├── vite.config.ts        # настройки Vite + прокси на серверы Sber
 ├── tsconfig.json
 └── src/
-    ├── main.tsx          # точка входа
+    ├── main.tsx 
     ├── App.tsx
     ├── api/              # работа с GigaChat API
     ├── components/       # UI-компоненты
